@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.Egggy1998/adradar",
+  "title": "AdRadar",
+  "description": "Competitor ad research for AI agents: Meta Ad Library and TikTok ads, scored by hook and angle.",
+  "websiteUrl": "https://adradarmcp.cloud/en/",
+  "repository": { "url": "https://github.com/Egggy1998/adradar", "source": "github" },
+  "version": "2.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adradarmcp.cloud/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your AdRadar API key>. Get one at https://adradarmcp.cloud/en/pay",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
