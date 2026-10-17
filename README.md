@@ -1,5 +1,7 @@
 # AdRadar MCP
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/egggy1998-adradar-ojtm4a?v=3a24061e99fa17af6aed90452a8651c0)](https://m8ven.ai/mcp/egggy1998-adradar-ojtm4a?s=readme)
+
 <img src="assets/adradar-logo.svg" alt="AdRadar" height="48">
 
 Competitor ad research inside your AI agent. Ask Claude, ChatGPT or Cursor which Meta and TikTok ads your competitors keep running, and get them scored and explained.
